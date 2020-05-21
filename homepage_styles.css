@@ -1,0 +1,154 @@
+:root {
+  font-size: 10px;
+  --coral: #f78888;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #ececec;
+}
+
+.center-content {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.coral {
+  background-color: var(--coral);
+}
+
+.container-header-and-main {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+.container-header {
+  padding: 2rem 0;
+}
+
+.container-header:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header-title {
+  color: #2f4f4f;
+  font-size: 2.2rem;
+  margin: 0 0 2rem;
+  text-align: center;
+}
+
+.main-nav {
+  display: block;
+}
+
+.main-nav a {
+  color: #2f4f4f;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: #ececec;
+}
+
+.main-nav a:focus {
+  outline: #fff solid 0.1rem;
+}
+
+.main-nav li {
+  display: block;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.main-search {
+  background-color: #ececec;
+  border: 0.1rem solid #666;
+  font-size: 1.8rem;
+  margin: 1rem 0 0;
+  min-width: 18rem;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.main-search:focus {
+  outline: 0.2rem solid blue;
+}
+
+@media (min-width: 768px) {
+  .center-content {
+    margin: 0 auto;
+  }
+
+  .header-title {
+    float: left;
+    font-size: 2.5rem;
+    margin: 0 2rem 0;
+    text-align: left;
+  }
+
+  .main-nav {
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .main-nav li {
+    float: left;
+    padding: 1rem;
+  }
+
+  .main-search {
+    float: right;
+    margin-left: 1rem;
+    width: 17%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-title {
+    font-size: 2.2rem;
+  }
+
+  .main-nav li {
+    font-size: 1.3rem;
+  }
+
+  .main-search {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-title {
+    font-size: 2.5rem;
+  }
+  .main-nav li {
+    font-size: 1.5rem;
+  }
+
+  .main-search {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-title {
+    font-size: 3rem;
+  }
+}
