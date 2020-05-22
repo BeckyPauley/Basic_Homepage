@@ -1,0 +1,15 @@
+/* footer */
+:root {
+  font-size: 10px;
+  --coral: #f78888;
+}
+
+.coral {
+  background-color: var(--coral);
+}
+
+.footer-main {
+  color: #2f4f4f;
+  font-size: 2rem;
+  padding: 2rem;
+}
