@@ -51,6 +51,7 @@
 @media (min-width: 768px) {
   .container-hero {
     background-image: none;
+    min-height: 0;
   }
 
   .hero-image {
