@@ -1,0 +1,69 @@
+.container-hero {
+  background: url("./graffiti-dark.jpg");
+  background-size: cover;
+  min-height: 400px;
+  position: relative;
+}
+
+.hero-text-container {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-image {
+  display: none;
+  max-width: 100%;
+}
+
+.hero-title {
+  color: #ececec;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.5rem;
+  text-shadow: 0.2rem 0.2rem 0.3rem black;
+}
+
+.hero-button {
+  background-color: #2f4f4f;
+  border-color: #2f4f4f;
+  border-style: solid;
+  box-shadow: 0.2rem 0.2rem 1rem black;
+  color: #ececec;
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+}
+
+.hero-button:first-child {
+  margin-right: 1rem;
+}
+
+.hero-btn:hover {
+  color: #f78888;
+}
+
+@media (min-width: 768px) {
+  .container-hero {
+    background-image: none;
+  }
+
+  .hero-image {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+
+  .hero-button {
+    font-size: 2.5rem;
+  }
+}
