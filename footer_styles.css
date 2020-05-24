@@ -1,9 +1,8 @@
 .container-footer {
-  position: relative;
   width: 100%;
 }
 
-.container-footer-copyright {
+.container-footer-content {
   display: flex;
   justify-content: space-between;
 }
@@ -42,7 +41,7 @@
   }
 
   .footer-social-links a {
-    padding: 1.5rem 2rem 1.5rem 2rem;
+    padding: 1.5rem 2rem;
   }
 }
 
@@ -52,6 +51,6 @@
   }
 
   .footer-social-links a {
-    padding: 2rem 2.5rem 2rem 2.5rem;
+    padding: 2rem 2.5rem;
   }
 }
