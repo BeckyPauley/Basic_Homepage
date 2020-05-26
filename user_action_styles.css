@@ -1,40 +1,43 @@
-.user-actions-container {
+.order-review-container {
   background-color: #ececec;
   padding: 4rem 0;
   width: 100%;
 }
 
-.user-actions-items {
+.order-review-items {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
 }
 
-.content-item {
+.order-review-item {
   margin-bottom: 4rem;
   width: 100%;
 }
 
-.content-title {
+.order-review-item:last-child {
+  margin-bottom: 0rem;
+}
+
+.order-review-title {
   color: #2f4f4f;
   font-size: 2.5rem;
   margin: 0 auto;
-  padding: 2rem 0rem;
+  padding: 2rem 0;
   text-align: center;
 }
 
-.user-action-image {
+.order-review-image {
   display: block;
   max-width: 100%;
   width: 100%;
 }
 
-.user-action-button {
+.order-review-button {
   background-color: #2f4f4f;
   border: solid #2f4f4f 1rem;
   border-radius: 0.2rem;
   color: #ececec;
-  display: block;
   font-size: 2rem;
   margin-top: 2rem;
   padding: 1rem;
@@ -42,32 +45,26 @@
   width: 100%;
 }
 
-.user-action-button:hover {
+.order-review-button:hover {
   color: #f78888;
 }
 
 @media (min-width: 768px) {
-  .user-actions-items {
+  .order-review-items {
     flex-flow: row;
   }
 
-  .content-item {
+  .order-review-item {
     width: 45%;
     margin: 1rem;
     padding: 1rem;
   }
 
-  .content-title {
+  .order-review-title {
     font-size: 3rem;
   }
 
-  .user-action-button {
+  .order-review-button {
     font-size: 3rem;
   }
-}
-
-@media (min-width: 1024px) {
-}
-
-@media (min-width: 1280px) {
 }
